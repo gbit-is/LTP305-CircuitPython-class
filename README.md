@@ -65,7 +65,7 @@ ltp.brightness(1)     # screen brightness so it is barely visible
 ltp.brightness(127)   # screen brightness at full
 ltp.brightness(64)    # Not too cold, not too warm 
 
-ltp.sencCommand(address,frame)  # Send a raw I2c address/frame command to the device
+ltp.sendCommand(address,frame)  # Send a raw I2c address/frame command to the device
 
 ```
 
